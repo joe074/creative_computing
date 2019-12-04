@@ -1,0 +1,56 @@
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 1) { 
+}
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (min-resolution: 192dpi) { 
+}
+
+.button{
+	border:1px solid black;
+}
+.target{
+	background-color:yellow;
+}
+
+
+ body {cursor: url('cottonpad.png'), auto;
+}
+
+
+
+img.skincare1{
+  width: 400px;
+  height: auto;}
+
+
+.step {color:#C4A6E3 ;
+		font-family: futura;
+		font-size:35pt;
+		width: 20vw;
+		text-align:center;}
+
+.tips {color: #74A3CF;
+	font-family:futura;
+	 font-size: 20pt;
+	 width:50vw;
+	 text-align:center;
+	 padding: 2vw;}
+
+.step:hover {transition:all.25s;
+			padding: 1vw;
+			opacity:100;
+			font-color:pink;
+			height:auto;}
+.tips{
+	opacity:0;
+	transition: opacity .5s;
+}
+.showup{
+	opacity:1;
+}

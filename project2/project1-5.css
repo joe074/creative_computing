@@ -1,0 +1,86 @@
+#face{
+width:500px;
+height:500px;
+border-radius:50%;
+background-color: pink;
+border-radius:50%;}
+
+#face:hover{background-color:orange;
+			width:700px;
+			height:700px;
+			padding-top: 100px;
+			transition: all:.3s;}
+
+.eye{ 
+width:100px;
+height:100px;
+background-color: white;
+border-radius:50%;
+align-items:center;}
+
+.pupil{width:50px;
+	   height:50px;
+		background-color:black;
+		border-radius:80%;
+		align-items:center;}
+
+#left_eye{width:100px;
+height:100px;
+background-color: white;
+border-radius:50%;
+align-items:center;
+margin-left:80px;
+float:left;
+position:relative;}
+
+
+
+#left_pupil{width:50px;
+			height:50px;
+			background-color:black;
+			border-radius:50%;
+			align-items:center;
+			margin: 100px;}
+
+
+#right_eye{width:100px;
+height:100px;
+background-color: white;
+border-radius:50%;
+align-items:center;
+margin-right:70px;
+float:right;
+position:relative;}
+
+#right_pupil{width:50px;
+			height:50px;
+			background-color:black;
+			border-radius:50%;
+			margin-right:20px;
+			position:relative;}
+
+
+
+#mouth{ width:100px;
+		height:100px;
+		background-color:red;
+		border-radius:50%;
+		transition:all .3s;
+		margin:auto; }
+
+#mouth:hover{background-color:pink;
+			 width:200px;
+			height:200px;
+			transition: all;:3s;}
+
+#nose{ 
+	width:0px; 
+	height:0px;
+	border-left:50px solid transparent;
+	border-right:50px solid transparent;
+	border-bottom:100px solid blue;
+	margin:auto;
+	}
+
+#nose:hover{color:purple;
+			transition: all:.2s;}
