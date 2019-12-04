@@ -14,7 +14,8 @@
 
 
 
- body {cursor: url('cottonpad.png'), auto;
+ body {
+ 	cursor: url(../cotton.jpg), auto;
 }
 
 
@@ -29,7 +30,7 @@ img.skincare1{
 		font-size:35pt;
 		width: 20vw;
 		text-align:center;
-	cursor: url('cotton.jpg'), auto;
+		cursor: pointer;
 }
 
 .tips {color: #74A3CF;
